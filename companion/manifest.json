@@ -5,27 +5,19 @@
 	"name": "hdr-status",
 	"shortname": "HDR",
 	"description": "Reads the Windows HDR status of connected monitors into Companion variables",
-	"version": "0.1.0",
+	"version": "1.0.0",
 	"license": "MIT",
 	"repository": "git+https://github.com/Syer10/companion-module-hdr-status.git",
 	"bugs": "https://github.com/Syer10/companion-module-hdr-status/issues",
-	"maintainers": [
-		{
-			"name": "Syer",
-			"email": "syer@localhost"
-		}
-	],
+	"maintainers": [{ "name": "Syer", "email": "syer@localhost" }],
 	"runtime": {
 		"type": "node26",
-		"api": "nodejs-ipc",
 		"apiVersion": "0.0.0",
 		"entrypoint": "../dist/main.js",
-		"permissions": {
-			"child-process": true
-		}
+		"permissions": { "child-process": true }
 	},
 	"legacyIds": [],
-	"manufacturer": "Personal",
+	"manufacturer": "Syer10",
 	"products": ["Windows HDR"],
 	"keywords": ["hdr", "display", "windows", "monitor"]
 }
