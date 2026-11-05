@@ -1,6 +1,6 @@
 {
 	"name": "companion-module-hdr-status",
-	"version": "0.1.0",
+	"version": "1.0.0",
 	"main": "dist/main.js",
 	"type": "module",
 	"scripts": {
@@ -15,7 +15,7 @@
 	"license": "MIT",
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/yourname/companion-module-hdr-status.git"
+		"url": "git+https://github.com/Syer10/companion-module-hdr-status.git"
 	},
 	"engines": {
 		"node": "^26",
